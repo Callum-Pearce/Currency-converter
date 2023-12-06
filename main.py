@@ -1,11 +1,3 @@
-"""
-how this works
-
-determin which currency to convert
-
-    -(display new currency)
-"""
-
 import forex_python.converter as Converter
 
 def convert_currency(amount, from_currenncy :  str, to_currency: str):
@@ -25,6 +17,5 @@ result = convert_currency(
     from_currenncy  = current_currency,
     to_currency     = desired_currency
 )
-# (current_currency_ammount)(from currency) is equal to (result)(to_currency)
-# 5usd is equal to 5.5gbp(example)
 print(f"{current_currency_amount:.2f} {current_currency} is equal to {result:.2f} {desired_currency}")
+ 
