@@ -34,3 +34,4 @@ if __name__ == "__main__":
     current = f"{current_currency_amount:.2f} {current_currency}"
     desired = f"{result:.2f} {desired_currency}"
     print(f"{current} is equal to {desired}")
+    input()
